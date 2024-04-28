@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="head_line"><h1>HTML FORM</h1></div><br><br>
+    <div class="frm">
+        <form action="#">
+        <label for="First_name">First Name:</label> <br>
+        <input type="text" placeholder="Enter your First name" class="First_name" id="First_name" name="First_name"> <br><br>
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" placeholder="Enter your Last name" class="last_name" id="last_name" name="last_name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="Example@" class="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" placeholder="Enter Password" class="pass" id="pass" name="pass"><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" value="Male" name="gender" class="gender" id="gender"> <span>Male</span>
+        <input type="radio" value="Female" name="gender" class="gender" id="gender"><span>Female</span><br><br>
+        <label for="birth_date">Date of Birth:</label><br>
+        <input type="date" name="birth_date" class="birth_date" id="birth_date"><br><br>
+        <label for="education">Educational Qualification</label> <br>
+        <input type="checkbox" value="jsc" class="checkbox" id="checkbox" name="checkbox"><span>Jsc</span>
+        <input type="checkbox" value="ssc" class="checkbox" id="checkbox" name="checkbox"><span>SSC</span>
+        <input type="checkbox" value="hsc" class="checkbox" id="checkbox" name="checkbox"><span>HSC</span><br><br>
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option><br><br>
+        </select><br><br>
+         <label for="">Language:</label><br>
+         <input type="checkbox" name="Language" class="Language" id="Language" value="English"><span>English</span>
+         <input type="checkbox" name="Language" class="Language" id="Language" value="Bengali"><span>Bengali</span>
+         <input type="checkbox" name="Language" class="Language" id="Language" value="Arabic"> <span>Arabic</span><br><br>
+         <label for="message">Your Message:</label><br>
+         <textarea name="" id="message" class="message" cols="50" rows="10" placeholder="type message here"></textarea><br><br>
+          <button type="submit">Submit</button><br><br>
+          <label for="cv">Upload Your CV</label><br>
+          <input type="file" name="file" class="file" id="file">
+    </form>
+
+    </div>
+</body>
+</html>
